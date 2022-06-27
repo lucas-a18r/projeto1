@@ -1,0 +1,56 @@
+*{margin:0;padding:0;} /* margem e prenchimento */
+
+body {
+	font-family: arial, helvetica, sans-serif; /* Família de fontes */
+	font-size:15px; /* Tamanho da Fonte */
+	background-color:black; /* Cor de Fundo */
+}
+
+h1 {
+	margin:10px 10px;
+	float: left;
+	font-family: sans-serif; 
+	color: #E7C142;
+}
+
+.menu{
+	list-style:none; /* Estilo da lista */
+	border:1px solid #E7C142; /* especificações da borda */
+	float:right; /* flutuação do menu, a esquerda */
+}
+
+.menu li { /* Um SubMenu */
+	position:relative; /* Posição Relativa */
+	float:right;
+	border-right: 1px solid #E7C142;
+}
+
+.menu li a {color:white;text-decoration:none;padding:10px 15px;display:block;}
+/* cor do texto no menu */
+
+.menu li a:hover { /* links estilizados */
+	background:#E7C142; /* Cor de Fundo */
+	color:white; /* Cor quando o mouse passa sobre */
+	/* -moz-box-shadow: 0 3px 10px 0 green; /* Efeito de Sombra */
+	/* -webkit-box-shadow: 0 3px 10px 0 #F8F8FF; /* Sombra mouse em cima */
+	/* text-shadow:0px 0px 5px #1C1C1C; /* Sombra no Texto */	
+}
+
+.menu li ul { /* Menu em DropDown */
+	position: absolute; /* Util para os itens do submenu não ultrapassem */
+	top:25px; /*topo*/
+	left:0; /*esquerda, default*/
+	background-color:#EBD96A; /* Cor de Fundo */
+	display:none; /* comportamento de exibição */
+}
+
+.menu li:hover ul, .menu li.over ul {display:block;}
+/* Usamos esse código para exibir o submenu */
+
+.menu li ul li { /* Ajustes finais para o menu do site */
+	border:1px solid #EBD96A; /* Ficar perfeito */
+	display:block; /* Comportamento de Exibição */
+	width:150px; /* Tamanho */
+}
+/*Laranja , Amarelo , Az.Esc. , Az.Mar. , Az.Claro */
+/*#E7C142,#EBD96A,#1D46BB,#208ED8,#D7EFED/
