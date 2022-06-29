@@ -6,11 +6,18 @@ body {
 	background-color:black; /* Cor de Fundo */
 }
 
-h1 {
+.coluna1 {
 	margin:10px 10px;
 	float: left;
 	font-family: sans-serif; 
 	color: #E7C142;
+}
+
+.header { /* nada por enquanto */
+   /**/
+}
+.apresentacao {
+	color: #E7C142;	
 }
 
 .menu{
@@ -53,4 +60,30 @@ h1 {
 	width:150px; /* Tamanho */
 }
 /*Laranja , Amarelo , Az.Esc. , Az.Mar. , Az.Claro */
-/*#E7C142,#EBD96A,#1D46BB,#208ED8,#D7EFED/
+/*#E7C142,#EBD96A,#1D46BB,#208ED8,#D7EFED */
+
+.coluna{ /*referencia as coluna*/
+    padding: 0 10px;
+    float: left;
+}
+.coluna1 {
+    width: 100px;
+}
+.coluna2 {
+    width: 250px;
+	margin: 10px;
+	padding : 5px 0;
+	position: relative;
+	top: 50%; 
+  	width: 100%;
+  	text-align: center; /* alinhando o texto no centro */
+}
+.coluna3 {
+	width: 250px;
+	margin: 10px;
+	padding : 5px 0;
+	position: relative;
+	top: 50%; 
+  	width: 100%;
+  	text-align: center;
+}
