@@ -1,5 +1,3 @@
 Olá, me chamo Lucas...  tenho formação em tecnologia da informação pelo IFCE - Campus de Maracanaú, local onde também estagiei voluntariamente na área de manutenção de de computadores (para adquirir conhecimento).
 
 Estou focado no aprendizado em me tornar um desenvolvedor web, tenho conhecimento em HTML e CSS e estou desenvolvendo meu aprendizado em JavaScript.
-
-teste de branch...
