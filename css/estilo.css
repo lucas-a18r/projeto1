@@ -59,7 +59,7 @@ body {
 /*Laranja , Amarelo , Az.Esc. , Az.Mar. , Az.Claro */
 /*#E7C142,#EBD96A,#1D46BB,#208ED8,#D7EFED */
 
-.coluna{ /*referencia as coluna*/
+.coluna{ /* referencia as colunas */
     padding: 0 10px;
     float: left;
 }
