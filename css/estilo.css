@@ -11,6 +11,7 @@ body {
 	float: left; /* Elemento posicionado */
 	font-family: sans-serif; 
 	color: #E7C142;
+	width : 100px;
 }
 
 .apresentacao {
